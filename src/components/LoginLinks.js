@@ -8,16 +8,16 @@ const LoginLinks = () => {
     <div>
       {user ? (
         <>
-          <Link href="/createAccount" className="LoginLink">
+          <Link to="/createAccount" className="LoginLink">
             회원가입
           </Link>
-          <Link href="/dashboard" className="LoginLink">
+          <Link to="/dashboard" className="LoginLink">
             Dashboard
           </Link>
         </>
       ) : (
         <>
-          <Link href="/login" className="LoginLink">
+          <Link to="/login" className="LoginLink">
             로그인
           </Link>
         </>
