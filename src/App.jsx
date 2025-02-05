@@ -4,12 +4,13 @@ import { Container } from "react-bootstrap";
 import HamburgerMenu from "./components/HamburgerMenu/HamburgerMenu";
 import MainLayout from "./components/Layout/MainLayout/MainLayout";
 import "./App.css";
+import QuotationPage from "./pages/QuotationPage/QuotationPage";
 
 // 메인 페이지 입니다.
 function App() {
   return (
     <MainLayout>
-      <HamburgerMenu />
+      {/* <HamburgerMenu />
       <div>
         <img
           className="bannerImg"
@@ -28,7 +29,8 @@ function App() {
         <MainCard />
         <div className="sectionLine"></div>
         <MainButton />
-      </Container>
+      </Container> */}
+      <QuotationPage />
     </MainLayout>
   );
 }
