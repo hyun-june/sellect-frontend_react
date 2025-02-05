@@ -4,7 +4,8 @@ import { Container } from "react-bootstrap";
 import HamburgerMenu from "./components/HamburgerMenu/HamburgerMenu";
 import MainLayout from "./components/Layout/MainLayout/MainLayout";
 import "./App.css";
-import QuotationPage from "./pages/QuotationPage/QuotationPage";
+import SignUpSellebPage from "./pages/SignUpPage/SignUpSellebPage/SignUpSellebPage";
+import SignUpSellecterPage from "./pages/SignUpPage/SignUpSellecterPage/SignUpSellecterPage";
 
 // 메인 페이지 입니다.
 function App() {
@@ -30,7 +31,7 @@ function App() {
         <div className="sectionLine"></div>
         <MainButton />
       </Container> */}
-      <QuotationPage />
+      <SignUpSellecterPage />
     </MainLayout>
   );
 }
