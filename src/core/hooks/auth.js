@@ -13,7 +13,7 @@ export const useAuth = ({ middleware, redirectIfAuthenticated } = {}) => {
     mutate,
   } = useSWR("/api/user", () =>
     axios
-      .get("/api/user")
+      .get("/api/user") 
       .then((res) => res.data)
       .catch((error) => {
         if (error.response.status !== 409) throw error;

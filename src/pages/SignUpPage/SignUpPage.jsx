@@ -1,7 +1,7 @@
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "../SingUpPage.css";
+import "./SignUpPage.css";
 
 const SingUpPage = () => {
   return (
